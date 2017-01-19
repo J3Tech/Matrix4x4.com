@@ -1,0 +1,390 @@
+
+body 
+{
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+		-webkit-text-size-adjust: 100%;
+		line-height: 1.8;
+		color: #444;
+		font-family: 'Ubuntu', verdana, sans-serif;
+}
+table 
+{
+		border-spacing: 0;
+}
+
+
+
+.nav 
+{
+		/* background-color: #444; */
+		background-color: #F1F1F1;
+		border-bottom: 1px solid #DADADA;
+		font-family: 'Ubuntu', helvetica, sans-serif;
+}
+.nav table 
+{
+		margin: 0 auto;
+}
+.header table 
+{
+		width: 100%;
+		max-width: 640px;
+}
+.nav td 
+{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		/* border: 1px solid green; */
+}
+#menu1 
+{
+		padding-left: 20px;
+		width: 70px;
+		text-align: left;
+}
+#menu2, #menu3 
+{
+		width: 180px;
+}
+#menu4 
+{
+		padding-right: 20px;
+		width: 100px;
+		text-align: right;
+}
+.nav a:link, .nav a:visited 
+{
+		color: #888;
+		/* color: #FFF; */
+		opacity: 1.0;
+}
+.nav img 
+{
+		display: block; /* http://stackoverflow.com/questions/7774814/remove-white-space-below-image */
+		/* margin: 0 auto; */
+		/* margin: 0 -64px; */
+}
+#current, .nav a:hover, .nav a:active 
+{
+		/* color: #FFF; */
+		opacity: 0.4;
+}
+.header a 
+{
+		/* width: 130px; */
+		/* width: 25%; */
+		line-height: 64px;
+		display: block;
+		white-space: nowrap;
+}
+.header img 
+{
+		width: 27px; /* But image file has retina resolution */
+		height: 22px;
+}
+
+
+.sticky 
+{
+		/* text-align: center; */
+		/* padding: 16px 0; */
+		line-height: 1.5;
+}
+.sticky h1 
+{
+		color: #B3B3B3;
+		font-weight: normal;
+		margin-bottom: -8px;
+		font-size: 72px;
+}
+
+
+
+.posts h1, .posts h2, .posts h3, .posts p, .posts ul, .posts dl 
+{
+		max-width: 600px;
+}
+.posts table 
+{
+		max-width: 640px;
+}
+.posts h1, .posts h2, .posts h3, .posts p, .posts ul, .posts dl, .posts table 
+{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 20px;
+}
+
+h5 {
+		color: #BBB;
+		font-size: 72px;
+		font-weight: normal;
+		line-height: 1;
+		margin-top: 1em;
+		margin-bottom: 0;
+}
+
+.posts ul 
+{
+		/* list-style-position: inside; */
+		list-style-type: circle;
+}
+.posts li 
+{
+		margin-left: 32px;
+}
+/*.posts img {*/
+.fullwidthimage 
+{
+		display: block;
+		margin: 32px auto;
+		/* http://stackoverflow.com/questions/4684304/how-can-i-resize-an-image-dynamically-with-css-as-the-browser-width-height-chang */
+		max-width: 100%;
+		height: auto;
+}
+.inlineimage 
+{
+		margin: 0;
+		padding: 0;
+}
+/* http://alistapart.com/article/creating-intrinsic-ratios-for-video */
+.videowrapper 
+{
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		height: 0;
+		/* padding-top: 25px; */
+}
+.videowrapper iframe 
+{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+}
+.videowrapper2 
+{
+		max-width: 1024px;
+		margin: 0 auto;
+}
+
+.vinewrapper 
+{
+		position: relative;
+		padding-bottom: 100%; /* 1:1 */
+		height: 0;
+		padding-top: 25px;
+}
+.vinewrapper iframe 
+{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+}
+.vinewrapper2 
+{
+		max-width: 600px;
+		margin: 0 auto;
+}
+
+.posts h1 
+{
+		margin-top: 48px;
+		line-height: 1;
+}
+.timetags 
+{
+		margin-top: -16px;
+		margin-bottom: 16px;
+		width: 100%;
+		line-height: 1em;
+}
+.time 
+{
+		color: #AAA;
+		font-weight: bold;
+		text-align: left;
+}
+.tags 
+{
+		color: #AAA;
+		text-align: right;
+}
+.twitter 
+{
+		line-height: 80px;
+		text-align: center;
+}
+.twitter img 
+{
+		display: inline;
+		margin: 0 0 0 10px;
+		vertical-align: middle;
+}
+
+
+
+a:link 
+{
+		/* color: #48C; */
+		color: #49E;
+		text-decoration: none;
+}
+a:visited 
+{
+		/* color: #86A; */
+		color: #86B;
+}
+a:hover, a:active 
+{
+		/* color: #4AF; */
+		color: #4BF;
+}
+a img 
+{ /* Needed for Firefox */
+		border: 0;
+}
+
+
+
+.prevnext 
+{
+		width: 100%;
+}
+.prev 
+{
+		text-align: left;
+}
+.next 
+{
+		text-align: right;
+}
+.pages 
+{
+		margin-bottom: 48px;
+		width: 100%;
+}
+.pages td 
+{
+		margin: 0;
+		padding: 0;
+		/* font-size: 16px; */
+		/* text-align: center; */
+}
+.pages a 
+{
+		/* width: 130px; */
+		line-height: 48px;
+		display: block;
+}
+#currentpage 
+{
+		color: #BBB;
+}
+
+
+
+.footer 
+{
+		border-top: 1px solid #DADADA;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: bold;
+}
+.footer table 
+{
+		padding: 40px 0 40px 0;
+}
+.footer td 
+{
+		width: 130px;
+		vertical-align: top;
+}
+.footer p 
+{
+		color: #999;
+		margin: 16px 0 0 0;
+}
+.footer a 
+{
+		/* width: 130px; */
+		display: block;
+}
+
+
+
+/* Only 4 menu items fit in < 400px. (Add orientation: portrait since iPhone still reports 320px device-width) */
+@media screen and (max-device-width: 400px) and (orientation: portrait) 
+{
+		body 
+		{
+				line-height: 1.5;
+		}
+		.hide 
+		{
+				display: none;
+		}
+		.footer 
+		{
+				font-size: 8px;
+				line-height: 12px;
+		}
+}
+
+
+
+/* Beta signup button */
+.button 
+{
+		background: -webkit-linear-gradient(#36CA20, #2FAF1C);
+		background: -moz-linear-gradient(#36CA20, #2FAF1C);
+		background: -o-linear-gradient(#36CA20, #2FAF1C);
+		background: linear-gradient(#36CA20, #2FAF1C);
+		padding: 20px;
+		margin: 10px;
+		border: 2px solid white;
+		width: 180px;
+		border-radius: 10px;
+		font-weight: bold;
+		text-align: center;
+		box-shadow: 0px 2px 2px #66BECC;
+}
+.button_p 
+{
+		margin-top: 50px;
+}
+.button_p a 
+{
+		color: #FFF;
+}
+.button_p a:hover 
+{
+		background: -webkit-linear-gradient(#3CD922, #36CA20);
+		background: -moz-linear-gradient(#3CD922, #36CA20);
+		background: -o-linear-gradient(#3CD922, #36CA20);
+		background: linear-gradient(#3CD922, #36CA20);
+}
+.button_p a:active 
+{
+		background: -webkit-linear-gradient(#1B610F, #228212);
+		background: -moz-linear-gradient(#1B610F, #228212);
+		background: -o-linear-gradient(#1B610F, #228212);
+		background: linear-gradient(#1B610F, #228212);
+}
+
+.center 
+{
+		text-align: center;
+}
+
+.page_center 
+{
+		text-align: center;
+		max-width: 640px;
+}
