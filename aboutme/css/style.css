@@ -331,3 +331,8 @@ body.respond #contactform textarea {width: 90%;}
 body.respond #copyright {margin: 60px auto;}
 
 body.respond #messageSent {margin-top: 20px;}
+
+.center 
+{
+		text-align: center;
+}
